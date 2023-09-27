@@ -1,0 +1,26 @@
+{
+    "name": "node_http",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Andres Guzman",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "supertest": "^6.3.3"
+    },
+    "jest": {
+        "coverage": "true",
+        "testEnvironment": "node",
+        "coveragePathIgnorePatterns": [
+            "/node_modules/"
+        ]
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "winston": "^3.10.0"
+    }
+}

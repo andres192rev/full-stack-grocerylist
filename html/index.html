@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List App</title>
+</head>
+<body>
+
+    <h1>Your Grocery List</h1>
+    <h1>Enter a grocery item in this format:</h1>
+
+
+    <div id="item_name_container">
+        <input type="string" id="item_name_box" placeholder="Item Name">
+        <br>
+        <br>
+    </div>
+    <div id="item_price_container">
+        <input type="number" id="item_price_box" placeholder="Item Price">
+        <br>
+        <br>
+    </div>
+    <div id="item_quantity_container">
+        <input type="number" id="item_quantity_box" placeholder="Item quantity">
+        <br>
+        <br>
+    </div>
+    <div id="item_purchased_container">
+        <input type="string" id="item_purchased_box" placeholder="Item purchased">
+    </div>
+    <div id="submit_container">
+        <input type="button" id="submit" value="Add Item">
+        <br>
+        <br>
+    </div>
+    <div id="get_all_container">
+        <input type="button" id="get_all_button" value="Get Grocery list">
+        <br>
+        <br>
+    </div>
+    <!-- <div id="get_item_container">
+        <input type="button" id="get_item_button" value="Get Item">
+        <br>
+        <br>
+    </div> -->
+    <div id="item_id_container">
+        <input type="number" id="item_id_box" placeholder="Item id">
+    </div>
+    <div id="delete_item_container">
+        <input type="button" id="delete_item_button" value="Delete item">
+    </div>
+    <div id="edit_item_container">
+        <input type="button" id="edit_item_button" value="Edit item">
+    </div>
+    
+    <div id="result_container">
+    <!--<p id="id"></p>
+        <p id="name"></p>
+        <img src="" alt="" id="sprite"> -->
+        <p id="response_message"></p>
+        <p id="response_object"></p>
+    </div>
+
+    <script src="../fetch/fetch.js"></script>
+</body>
+</html>
